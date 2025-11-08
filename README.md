@@ -30,6 +30,10 @@ El notebook [exploratory_analysis.ipynb](exploratory_analysis.ipynb) contiene:
 - **Análisis cruzado**: Relación entre sentimiento y nivel de impacto
 - **Visualizaciones**: Gráficos de barras y análisis estadísticos
 
+### Notebooks
+
+Con entrenamiento de los modelos
+
 ## Requisitos
 
 - Python 3.7+
@@ -90,23 +94,6 @@ Una vez abierto el notebook, puedes ejecutar todas las celdas secuencialmente us
 - **Run All**: Menu → Cell → Run All
 - O ejecutar celda por celda con `Shift + Enter`
 
-## Estructura del Proyecto
-
-```
-FinancialNLP/
-│
-├── dataset/                          # Directorio con los datos
-│   ├── Sentences_50Agree.txt         # Dataset con 50% acuerdo
-│   ├── Sentences_66Agree.txt         # Dataset con 66% acuerdo
-│   ├── Sentences_75Agree.txt         # Dataset con 75% acuerdo
-│   ├── Sentences_AllAgree.txt        # Dataset con 100% acuerdo
-│   ├── README.txt                    # Documentación del dataset
-│   └── License.txt                   # Licencia del dataset
-│
-├── exploratory_analysis.ipynb        # Notebook de análisis exploratorio
-├── requirements.txt                  # Dependencias del proyecto
-└── README.md                         # Este archivo
-```
 
 ## Resultados del Análisis
 
@@ -125,9 +112,3 @@ El análisis exploratorio revela:
 ## Licencia
 
 El dataset Financial Phrase Bank está sujeto a su propia licencia. Para uso académico, citar la publicación original. Para uso comercial, contactar a los autores del dataset.
-
-## Contacto
-
-Para preguntas sobre el dataset original:
-- Pekka Malo: pekka.malo@aalto.fi
-- Ankur Sinha: ankur.sinha@aalto.fi
